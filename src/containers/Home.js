@@ -124,6 +124,7 @@ function Home() {
           ? recentRecipes.map((recipe) => {
               return (
                 <div
+
                   className="Recent"
                   key={recipe._id}
                   onClick={() => handleEditRecipeClick(recipe)}
@@ -136,7 +137,7 @@ function Home() {
         {/* <RecipeGrid recipes={recipes} handleEditRecipe={handleEditRecipe} /> */}
       </div>
       <Link to="./RecipeBook">
-        <button className="SeeMore">See More...</button>
+        <button className="see-more">See More...</button>
       </Link>
     </div>
   );
