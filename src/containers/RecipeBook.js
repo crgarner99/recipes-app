@@ -3,12 +3,7 @@ import NavBar from "../components/NavBar";
 import "./RecipeBook.css";
 import Modal from "../components/Modal";
 import AddEditRecipeForm from "../components/AddEditRecipeForm";
-import {
-  deleteRecipe,
-  getRecipe,
-  getRecipes,
-  updateRecipe,
-} from "../RecipeService";
+import { deleteRecipe, getRecipes, updateRecipe } from "../RecipeService";
 import RecipeGrid from "../components/RecipeGrid";
 
 function RecipeBook() {
@@ -17,7 +12,7 @@ function RecipeBook() {
     setIsShowingAddEditRecipeModal,
   ] = React.useState(false);
   const [currentRecipe, setCurrentRecipe] = React.useState(null);
-  const [originalRecipes, setOriginalRecipes] = React.useState([]);
+  // const [originalRecipes, setOriginalRecipes] = React.useState([]);
   const [recipes, setRecipes] = React.useState(() => {
     fetchRecipes();
 
@@ -27,7 +22,7 @@ function RecipeBook() {
   function fetchRecipes() {
     getRecipes()
       .then((response) => {
-        setOriginalRecipes(response.data);
+        // setOriginalRecipes(response.data);
         setRecipes(response.data);
       })
       .catch((error) => {

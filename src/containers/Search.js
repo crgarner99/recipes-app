@@ -1,12 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import "./Search.css";
-import {
-  getRecipes,
-  updateRecipe,
-  deleteRecipe,
-  getRecipe,
-} from "../RecipeService";
+import { getRecipes, updateRecipe, deleteRecipe } from "../RecipeService";
 import AddEditRecipeForm from "../components/AddEditRecipeForm";
 import RecipeGrid from "../components/RecipeGrid";
 import Modal from "../components/Modal";

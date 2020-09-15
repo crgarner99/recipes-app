@@ -4,7 +4,6 @@ import Home from "./containers/Home";
 import Search from "./containers/Search";
 import RecipeBook from "./containers/RecipeBook";
 import RecentlyDeleted from "./containers/RecentlyDeleted";
-import NavBar from "./components/NavBar";
 
 const routes = (
   <Router>

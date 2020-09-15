@@ -6,7 +6,6 @@ import AddEditRecipeForm from "../components/AddEditRecipeForm";
 import {
   createRecipe,
   deleteRecipe,
-  getRecipe,
   getRecipes,
   updateRecipe,
 } from "../RecipeService";
@@ -134,7 +133,7 @@ function Home() {
               );
             })
           : null}
-        <RecipeGrid recipes={recipes} handleEditRecipe={handleEditRecipe} />
+        {/* <RecipeGrid recipes={recipes} handleEditRecipe={handleEditRecipe} /> */}
       </div>
       <Link to="./RecipeBook">
         <button className="SeeMore">See More...</button>
