@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3005";
+//const BASE_URL = "http://localhost:3005";
+const BASE_URL = "https://recipe-app-cameron.herokuapp.com";
 //TODO connect to hosting platform
 // const BASE_URL = "URL of Hosting Platform";
 
