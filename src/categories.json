@@ -1,0 +1,66 @@
+[
+  {
+    "value": "all",
+    "label": "All"
+  },
+  {
+    "value": "soups",
+    "label": "Soups"
+  },
+  {
+    "value": "salad",
+    "label": "Salad"
+  },
+  {
+    "value": "pasta",
+    "label": "Pasta"
+  },
+  {
+    "value": "appetizer",
+    "label": "Appetizer"
+  },
+  {
+    "value": "sides",
+    "label": "Sides"
+  },
+  {
+    "value": "baking",
+    "label": "Baking"
+  },
+  {
+    "value": "desserts",
+    "label": "Desserts"
+  },
+  {
+    "value": "snacks",
+    "label": "Snacks"
+  },
+  {
+    "value": "drinks",
+    "label": "Drinks"
+  },
+  {
+    "value": "sauces",
+    "label": "Sauces"
+  },
+  {
+    "value": "seafood",
+    "label": "Seafood"
+  },
+  {
+    "value": "vegetarian",
+    "label": "Vegetarian"
+  },
+  {
+    "value": "low-calorie",
+    "label": "Low-Calorie"
+  },
+  {
+    "value": "grill",
+    "label": "Grill"
+  },
+  {
+    "value": "meat",
+    "label": "Meat"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "value": "-",
+    "label": "-"
+  },
+  {
+    "value": "5 min",
+    "label": "5 Min"
+  },
+  {
+    "value": "10 min",
+    "label": "10 Min"
+  },
+  {
+    "value": "15 min",
+    "label": "15 Min"
+  },
+  {
+    "value": "20 min",
+    "label": "20 Min"
+  },
+  {
+    "value": "25 min",
+    "label": "25 Min"
+  },
+  {
+    "value": "30 min",
+    "label": "30 Min"
+  },
+  {
+    "value": "35 min",
+    "label": "35 Min"
+  },
+  {
+    "value": "40 min",
+    "label": "45 Min"
+  },
+  {
+    "value": "50 min",
+    "label": "55 Min"
+  },
+  {
+    "value": "60 min",
+    "label": "60 Min"
+  },
+  {
+    "value": "1 hr 5 min",
+    "label": "1 Hr 5 Min"
+  },
+  {
+    "value": "1 hr 10 min",
+    "label": "1 Hr 10 Min"
+  },
+  {
+    "value": "1 hr 15 min",
+    "label": "1 Hr 15 Min"
+  },
+  {
+    "value": "1 hr 20 min",
+    "label": "1 Hr 20 Min"
+  },
+  {
+    "value": "1 hr 25 min",
+    "label": "1 Hr 25 Min"
+  },
+  {
+    "value": "1 hr 30 min",
+    "label": "1 Hr 30 Min"
+  },
+  {
+    "value": "1 hr 35 min",
+    "label": "1 Hr 35 Min"
+  },
+  {
+    "value": "1 hr 40 min",
+    "label": "1 Hr 40 Min"
+  },
+  {
+    "value": "1 hr 45 min",
+    "label": "1 Hr 45 Min"
+  },
+  {
+    "value": "1 hr 50 min",
+    "label": "1 Hr 50 Min"
+  },
+  {
+    "value": "1 hr 55 min",
+    "label": "1 Hr 55 Min"
+  },
+  {
+    "value": "2 hrs",
+    "label": "2 Hrs"
+  },
+  {
+    "value": "2 hrs+",
+    "label": "2 Hrs+"
+  }
+]

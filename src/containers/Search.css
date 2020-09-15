@@ -1,0 +1,133 @@
+body {
+  margin: 50px;
+  background: url(/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.search-input {
+  width: 500px;
+  height: 45px;
+  border-radius: 3em;
+  background-image: url(/search.svg);
+  background-repeat: no-repeat;
+  background-position: 30vw;
+  background-size: 25px;
+}
+.header {
+  color: whitesmoke;
+  font-size: 55px;
+  text-shadow: 0 0 5px black;
+}
+.Search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (min-width: 500px) {
+  .search-input {
+    width: 300px;
+    height: 45px;
+    background-position: 50vw;
+  }
+}
+@media all and (min-width: 540px) {
+  .search-input {
+    width: 350px;
+    height: 45px;
+    background-position: 55vw;
+  }
+}
+@media all and (min-width: 600px) {
+  .search-input {
+    width: 370px;
+    height: 45px;
+    background-position: 55vw;
+  }
+}
+@media all and (min-width: 650px) {
+  .search-input {
+    width: 390px;
+    height: 45px;
+    background-position: 55vw;
+  }
+}
+@media all and (min-width: 690px) {
+  .search-input {
+    width: 390px;
+    height: 45px;
+    background-position: 50vw;
+  }
+}
+@media all and (min-width: 750px) {
+  .search-input {
+    width: 420px;
+    height: 45px;
+    background-position: 50vw;
+  }
+}
+@media all and (min-width: 830px) {
+  .search-input {
+    width: 450px;
+    height: 45px;
+    background-position: 50vw;
+  }
+}
+@media all and (min-width: 880px) {
+  .search-input {
+    width: 490px;
+    height: 45px;
+    background-position: 50vw;
+  }
+}
+@media all and (min-width: 970px) {
+  .search-input {
+    width: 500px;
+    height: 45px;
+    background-position: 45vw;
+  }
+}
+@media all and (min-width: 1090px) {
+  .search-input {
+    width: 550px;
+    height: 45px;
+    background-position: 45vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  .search-input {
+    width: 580px;
+    height: 45px;
+    background-position: 45vw;
+  }
+}
+@media all and (min-width: 1270px) {
+  .search-input {
+    width: 620px;
+    height: 45px;
+    background-position: 45vw;
+  }
+}
+@media all and (min-width: 1370px) {
+  .search-input {
+    width: 650px;
+    height: 45px;
+    background-position: 43vw;
+  }
+}
+@media all and (min-width: 1470px) {
+  .search-input {
+    width: 650px;
+    height: 45px;
+    background-position: 40vw;
+  }
+}
+@media all and (min-width: 1600px) {
+  .search-input {
+    width: 690px;
+    height: 45px;
+    background-position: 39vw;
+  }
+}

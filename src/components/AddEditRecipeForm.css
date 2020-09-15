@@ -1,0 +1,236 @@
+.required {
+  color: red;
+  margin-right: 3px;
+}
+
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  position: relative;
+  left: 190px;
+  top: 0px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  text-shadow: 0 0 1px whitesmoke;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.recipe-form input,
+.recipe-form select {
+  width: 50%;
+  border-radius: 3em;
+  color: teal;
+  position: relative;
+  left: 10px;
+  top: 0px;
+}
+
+.recipe-form label {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media all and (min-width: 500px) {
+  label {
+    position: relative;
+    left: 20px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: min-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: min-content;
+    position: relative;
+    left: 50px;
+  }
+}
+@media all and (min-width: 560px) {
+  label {
+    position: relative;
+    left: 17px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: max-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: fit-content;
+    position: relative;
+    left: 25px;
+  }
+}
+@media all and (min-width: 845px) {
+  label {
+    position: relative;
+    left: 70px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: max-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: -5px;
+  }
+}
+@media all and (min-width: 985px) {
+  label {
+    position: relative;
+    left: 120px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: max-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 35px;
+  }
+}
+@media all and (min-width: 1130px) {
+  label {
+    position: relative;
+    left: 150px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: max-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 90px;
+  }
+}
+@media all and (min-width: 1250px) {
+  label {
+    position: relative;
+    left: 190px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: max-content;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 120px;
+  }
+}
+@media all and (min-width: 1420px) {
+  label {
+    position: relative;
+    left: 120px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: 50%;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 150px;
+  }
+}
+@media all and (min-width: 1700px) {
+  label {
+    position: relative;
+    left: 150px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: 50%;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 200px;
+  }
+}
+@media all and (min-width: 1915px) and (max-width: 1920px) {
+  label {
+    position: relative;
+    left: 170px;
+    top: 0px;
+  }
+  .recipe-form input,
+  .recipe-form select {
+    width: 50%;
+    border-radius: 3em;
+    color: teal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .add-edit-title {
+    width: max-content;
+    position: relative;
+    left: 260px;
+  }
+}

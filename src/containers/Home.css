@@ -1,0 +1,73 @@
+body {
+  margin: 50px;
+  background: url(/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.Header {
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 55px;
+  text-shadow: 0 0 5px black;
+}
+
+.Intro {
+  width: 40%;
+  /* height: 120px; */
+  text-align: center;
+}
+
+.recent-container {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.Recent {
+  width: 120px;
+  height: 75px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(/recipecard.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font: message-box;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+button {
+  border-radius: 3em;
+  color: white;
+  background-color: grey;
+  border: 1px solid white;
+  height: 50px;
+  width: 130px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 5px;
+  justify-content: center;
+}
+
+button:hover {
+  color: teal;
+  background-color: white;
+  border: 1px solid black;
+}

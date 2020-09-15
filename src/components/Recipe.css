@@ -1,0 +1,14 @@
+.recipe-holder {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 15px 10px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url("/recipecard.png");
+  background-size: 100%;
+  cursor: pointer;
+  color: white;
+}
