@@ -136,7 +136,7 @@ function Search() {
       <input
         type="text"
         className="search-input"
-        placeholder="Search for Name, Category, or anything in the recipe."
+        placeholder="  Search for Name, Category, or anything in the recipe."
         value={searchQuery}
         onChange={(e) => {
           setSearchQuery(e.target.value);

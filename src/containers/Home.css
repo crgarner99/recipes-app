@@ -64,10 +64,22 @@ button {
   margin-top: 15px;
   padding: 5px;
   justify-content: center;
+  font-size: 1.8vmax;
 }
 
 button:hover {
   color: teal;
   background-color: white;
   border: 1px solid black;
+}
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+}
+@media all and (min-width: 500px) {
+  .Header {
+    width: max-content;
+  }
 }
