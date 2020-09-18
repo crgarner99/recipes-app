@@ -5,6 +5,7 @@ import Modal from "../components/Modal";
 import AddEditRecipeForm from "../components/AddEditRecipeForm";
 import { deleteRecipe, getRecipes, updateRecipe } from "../RecipeService";
 import RecipeGrid from "../components/RecipeGrid";
+import Collapsible from "react-collapsible";
 
 function RecipeBook() {
   const [
@@ -61,15 +62,6 @@ function RecipeBook() {
       });
   }
 
-  // Recipes List state- product showing on recipe book page
-  // Original Recipe List state-clean list
-  // is the addedit recipe modal showing- state
-
-  // modal
-  // edit
-  // delete
-  // update
-
   return (
     <div className="recipe-book-container">
       {isShowingAddEditRecipeModal ? (
@@ -87,7 +79,7 @@ function RecipeBook() {
 
       <div className="recipes-container">
         <RecipeGrid recipes={recipes} handleEditRecipe={handleEditRecipe} />
-        {recipes.length === 0 ? <h3>No Results Found</h3> : null}
+        {recipes.length === 0 ? <h2>No Recipes Found</h2> : null}
       </div>
     </div>
   );

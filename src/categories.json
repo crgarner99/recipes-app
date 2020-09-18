@@ -1,66 +1,66 @@
 [
   {
-    "value": "all",
+    "value": "All",
     "label": "All"
   },
   {
-    "value": "soups",
+    "value": "Soups",
     "label": "Soups"
   },
   {
-    "value": "salad",
+    "value": "Salad",
     "label": "Salad"
   },
   {
-    "value": "pasta",
+    "value": "Pasta",
     "label": "Pasta"
   },
   {
-    "value": "appetizer",
+    "value": "Appetizer",
     "label": "Appetizer"
   },
   {
-    "value": "sides",
+    "value": "Sides",
     "label": "Sides"
   },
   {
-    "value": "baking",
+    "value": "Baking",
     "label": "Baking"
   },
   {
-    "value": "desserts",
+    "value": "Desserts",
     "label": "Desserts"
   },
   {
-    "value": "snacks",
+    "value": "Snacks",
     "label": "Snacks"
   },
   {
-    "value": "drinks",
+    "value": "Drinks",
     "label": "Drinks"
   },
   {
-    "value": "sauces",
+    "value": "Sauces",
     "label": "Sauces"
   },
   {
-    "value": "seafood",
+    "value": "Seafood",
     "label": "Seafood"
   },
   {
-    "value": "vegetarian",
+    "value": "Vegetarian",
     "label": "Vegetarian"
   },
   {
-    "value": "low-calorie",
+    "value": "Low-calorie",
     "label": "Low-Calorie"
   },
   {
-    "value": "grill",
+    "value": "Grill",
     "label": "Grill"
   },
   {
-    "value": "meat",
+    "value": "Meat",
     "label": "Meat"
   }
 ]

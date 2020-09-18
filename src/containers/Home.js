@@ -10,7 +10,7 @@ import {
   updateRecipe,
 } from "../RecipeService";
 import { Link } from "react-router-dom";
-import RecipeGrid from "../components/RecipeGrid";
+// import RecipeGrid from "../components/RecipeGrid";
 
 function Home() {
   const [recentRecipes, setRecentRecipes] = React.useState(() => {
@@ -34,11 +34,11 @@ function Home() {
     setIsShowingAddEditRecipeModal,
   ] = React.useState(false);
   const [currentRecipe, setCurrentRecipe] = React.useState(null);
-  const [recipes, setRecipes] = React.useState(() => {
-    fetchRecipes();
+  // const [recipes, setRecipes] = React.useState(() => {
+  //   fetchRecipes();
 
-    return [];
-  });
+  //   return [];
+  // });
 
   function handleAddRecipeClick() {
     setCurrentRecipe(null);
@@ -74,10 +74,10 @@ function Home() {
         alert(error);
       });
   }
-  function handleEditRecipe(recipe) {
-    setCurrentRecipe(recipe);
-    setIsShowingAddEditRecipeModal(true);
-  }
+  // function handleEditRecipe(recipe) {
+  //   setCurrentRecipe(recipe);
+  //   setIsShowingAddEditRecipeModal(true);
+  // }
 
   function handleDeleteRecipe(recipe) {
     deleteRecipe(recipe._id)
@@ -124,7 +124,6 @@ function Home() {
           ? recentRecipes.map((recipe) => {
               return (
                 <div
-
                   className="Recent"
                   key={recipe._id}
                   onClick={() => handleEditRecipeClick(recipe)}
